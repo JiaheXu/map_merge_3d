@@ -62,7 +62,7 @@ PointCloudPtr insertErrorIntoSourceCloud(const PointCloudConstPtr &src_cloud);
 Eigen::Affine3f getXYPlaneParallelTransform(const PointCloudPtr &input);
 
 // define enum class Keypoint + string conversions
-ENUM_CLASS(Keypoint, SIFT, HARRIS, ISS, NARF);
+ENUM_CLASS(Keypoint, SIFT, HARRIS, ISS);
 
 /**
  * @brief Detects keypoints in the pointcloud
